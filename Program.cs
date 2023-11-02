@@ -26,7 +26,7 @@ class Program
 
         int[] newArray = RemoveDuplicates(originalArray);
 
-        Console.WriteLine("Modified Array (unique values only):");
+        Console.WriteLine("New Array:");
         PrintArray(newArray);
     }
        static void PrintArray(int[] array)
